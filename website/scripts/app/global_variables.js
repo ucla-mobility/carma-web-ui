@@ -65,6 +65,8 @@ const T_GNSS_FIX_FUSED="/hardware_interface/gnss_fix_fused";
 const T_J2735_SPAT="/message/incoming_j2735_spat";
 const T_INTERSECTION_SIGNAL_GROUP_IDS="/environment/intersection_signal_group_ids";
 const T_UI_INSTRUCTION ="/ui/ui_instructions";
+const T_ADS_SAFETY_DATA = "/message/ads_safety_data";
+const T_PRE_PASS_DECISION = "/guidance/emergncy_detection_manual";
 
 //ROS Services names
 const S_GUIDANCE_AVAILABLE_ROUTES = '/guidance/get_available_routes';
@@ -119,6 +121,8 @@ const M_TCR_POLYGON = "cav_msgs/TrafficControlRequestPolygon"
 const M_GPS_COMMON_GPSFIX="gps_common/GPSFix";
 const M_J2735_SPAT="j2735_msgs/SPAT";
 const M_MULTI_ARRAY="std_msgs/Int32MultiArray";
+const M_ADS_SAFETY="cav_msgs/ads_safety";
+const M_STRING = 'std_msgs/String';
 
 //ROS param names
 const P_REQUIRED_PLUGINS = '/guidance/health_monitor/required_plugins';

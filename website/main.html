@@ -34,7 +34,8 @@
         <link rel="stylesheet" type="text/css" href="utils/event_info/event_info.css">
         <link rel="stylesheet" type="text/css" href="utils/event_status/event_status.css">
         <link rel="stylesheet" type="text/css" href="utils/lane_change_status/lane_change_status.css">
-
+        <link rel="stylesheet" type="text/css" href="utils/ads/ads.css">
+        
 
         <!-- thirdparty js -->
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.js"></script> -->
@@ -89,9 +90,11 @@
         <script src="utils/cellular/cellular.js"></script>
         <script src="utils/lane_change_status/lane_change_status.js"></script>
         <script src="utils/event_status/event_status.js"></script>
+        <script src="utils/ads/ads.js"></script>
         <!--3D stored js libraries --> 
 
         <!--backend services (2D) -->
+        <script src="scripts/ros/ros_ads.js"></script>
         <script src="scripts/ros/rosbridge_v2.js"></script>
         <script src="scripts/ros/ros_system_alert.js"></script>
         <script src="scripts/ros/ros_system_status.js"></script>
@@ -202,6 +205,13 @@
                   <div class="speed-limit-col widget-col-margin"></div>   
               </div>
               </div>                           
+            </div><!--END: row-->
+
+            <div class="row">
+              <div class=" ads-health-container">ADS Health
+                <div class=" ads-health-col widget-col-margin"></div>
+              </div>
+              <div class=" ads-decision-col widget-col-margin"></div>                                   
             </div><!--END: row-->
 
             <div class="row">                 

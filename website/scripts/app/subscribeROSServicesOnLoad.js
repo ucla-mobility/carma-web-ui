@@ -107,6 +107,7 @@ $(document).ready(function(){
             subscribeLaneChangeTopics(); //lane change Info: left/right midles
             GetLaneChangeStatus(); //Lane change status : CLC (Cooperative lane change status)
             showUIInstructions();
+            subscribeToPrePass();
 
             /***
              * SECTION: Right Panel Info
